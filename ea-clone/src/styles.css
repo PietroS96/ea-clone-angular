@@ -1,4 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
 body {
-  margin: 0;
+  overflow-x: hidden;
+}
+
+/* media query */
+@media (max-width: 1920px) {
+}
+@media (max-width: 1456px) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 568px) {
 }

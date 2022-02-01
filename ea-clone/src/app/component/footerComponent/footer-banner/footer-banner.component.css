@@ -15,7 +15,6 @@
 
 .blue-stripe {
   background: #6fb0d6;
-  width: 100%;
   height: 100px;
 }
 .blue-stripe > p {
@@ -27,4 +26,43 @@
 .blue-stripe > button {
   margin-right: 20vw;
   height: 50px;
+}
+@media (max-width: 1920px) {
+}
+@media (max-width: 1456px) {
+  .ea-logo-play {
+    left: 15vw;
+  }
+}
+@media (max-width: 1024px) {
+  .ea-logo-play {
+    left: 10vw;
+  }
+}
+@media (max-width: 768px) {
+  .ea-logo-play {
+    left: 5vw;
+  }
+  .blue-stripe {
+    flex-direction: column;
+    height: 180px;
+  }
+  .blue-stripe > p {
+    margin-left: 15%;
+    font-size: 22px;
+  }
+}
+@media (max-width: 568px) {
+  .ea-logo-play {
+    left: 5vw;
+  }
+  .blue-stripe {
+    flex-direction: column;
+    height: 180px;
+  }
+
+  .blue-stripe > p {
+    margin-left: 10%;
+    font-size: 22px;
+  }
 }

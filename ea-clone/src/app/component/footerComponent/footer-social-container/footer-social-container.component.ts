@@ -1,15 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-footer-social-container',
   templateUrl: './footer-social-container.component.html',
-  styleUrls: ['./footer-social-container.component.css']
+  styleUrls: ['./footer-social-container.component.css'],
 })
 export class FooterSocialContainerComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  innerWidth: any;
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.innerWidth = window.innerWidth;
   }
-
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.innerWidth = window.innerWidth;
+  }
 }

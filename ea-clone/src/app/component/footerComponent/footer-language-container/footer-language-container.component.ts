@@ -1,4 +1,10 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import {
+  Component,
+  ElementRef,
+  OnInit,
+  TemplateRef,
+  ViewChild,
+} from '@angular/core';
 
 @Component({
   selector: 'app-footer-language-container',
@@ -6,10 +12,17 @@ import { Component, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./footer-language-container.component.css'],
 })
 export class FooterLanguageContainerComponent implements OnInit {
+  visibility: boolean = false;
   constructor() {}
 
   ngOnInit(): void {}
-  toggleMenu(ele: any) {
-    ele.classList.toggle('panel-hide');
+  rotateArrow(ele: HTMLElement) {
+    ele.classList.toggle('rotate-arrow');
+  }
+  cancelBorder(ele: HTMLElement) {
+    ele.classList.toggle('change-border');
+  }
+  showPanel() {
+    this.visibility = !this.visibility;
   }
 }

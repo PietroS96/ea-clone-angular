@@ -1,44 +1,109 @@
-* {
-  text-decoration: none;
+.container-footer-info {
+  background: #eaeaea;
+  padding-bottom: 50px;
+}
+.container-footer-info ul {
   list-style-type: none;
 }
-
-.container-info-social {
-  background-color: #eaeaea;
-  height: 320px;
-  display: flex;
-  flex-direction: column;
+.postScriptum {
+  padding-top: 50px;
+  margin-left: 20vw;
+  line-height: 15px;
 }
-.container-info-social-link-icon {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 17.5vw;
-  margin-top: 40px;
+.postScriptum a {
+  text-decoration: none;
 }
-.link-utili {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-.link-utili a {
-  color: black;
-  font-size: 14px;
-}
-.link-utili > li > a {
-  font-size: 16px;
-}
-.social {
+.separators {
+  margin-left: 20vw;
   margin-right: 20vw;
-  width: 400px;
 }
-.social p {
-  font-size: 14px;
-  font-weight: bold;
-  margin-left: 50px;
-  margin-bottom: 10px;
+.list-info {
+  max-width: 800px;
 }
-.social > div > a {
-  margin-left: 20px;
-  opacity: 0.8;
+.list-info a {
+  text-decoration: none;
+  color: black;
+}
+.container-footer-info-2 {
+  margin-left: 13vw;
+  margin-right: 15vw;
+}
+
+/* media query */
+@media (max-width: 1920px) {
+}
+@media (max-width: 1456px) {
+  .postScriptum {
+    margin-left: 7vw;
+  }
+  .container-footer-info-2 {
+    margin-left: 5vw;
+  }
+  .separators {
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+  .container-social {
+    margin-left: 15vw;
+    width: 350px;
+  }
+}
+@media (max-width: 1024px) {
+  .postScriptum {
+    margin-left: 10vw;
+  }
+  .container-footer-info-2 {
+    margin-left: 7vw;
+    flex-direction: column;
+  }
+  .container-social {
+    margin-left: 3vw;
+  }
+}
+@media (max-width: 768px) {
+  .postScriptum {
+    padding-top: 50px;
+    margin-left: 10vw;
+    line-height: 15px;
+  }
+  .container-footer-info-2 {
+    flex-direction: column;
+  }
+  .container-social {
+    margin-left: 8%;
+  }
+  .separators {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .list-info {
+    width: 500px;
+  }
+  .list-info > li {
+    width: 200px;
+  }
+}
+@media (max-width: 568px) {
+  .postScriptum {
+    padding-top: 30px;
+    margin-left: 5vw;
+    line-height: 15px;
+    font-size: 14px;
+  }
+  .container-footer-info-2 {
+    margin-left: -1vw;
+  }
+  .container-social {
+    margin-left: 6vw;
+  }
+  .separators {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .list-info {
+    width: 500px;
+  }
+  .list-info > li {
+    width: 200px;
+  }
 }
