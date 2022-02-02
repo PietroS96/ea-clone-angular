@@ -47,13 +47,16 @@
     margin-left: 15vw;
     width: 350px;
   }
+  .container-social p {
+    width: 450px;
+  }
 }
 @media (max-width: 1024px) {
   .postScriptum {
-    margin-left: 10vw;
+    margin-left: 7vw;
   }
   .container-footer-info-2 {
-    margin-left: 7vw;
+    margin-left: 3.5vw;
     flex-direction: column;
   }
   .container-social {

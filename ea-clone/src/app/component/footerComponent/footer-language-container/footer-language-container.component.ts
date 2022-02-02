@@ -1,10 +1,4 @@
-import {
-  Component,
-  ElementRef,
-  OnInit,
-  TemplateRef,
-  ViewChild,
-} from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-footer-language-container',
@@ -13,6 +7,7 @@ import {
 })
 export class FooterLanguageContainerComponent implements OnInit {
   visibility: boolean = false;
+  innerWidth: any;
   constructor() {}
 
   ngOnInit(): void {}
@@ -22,7 +17,16 @@ export class FooterLanguageContainerComponent implements OnInit {
   cancelBorder(ele: HTMLElement) {
     ele.classList.toggle('change-border');
   }
-  showPanel() {
-    this.visibility = !this.visibility;
+  showPanel(ele: HTMLElement) {
+    if (this.innerWidth > 1024) {
+      this.visibility = !this.visibility;
+    } else {
+      ele.classList.toggle('show-select');
+    }
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    this.innerWidth = window.innerWidth;
   }
 }
