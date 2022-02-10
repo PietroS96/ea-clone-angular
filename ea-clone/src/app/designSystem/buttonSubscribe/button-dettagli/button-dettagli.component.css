@@ -1,0 +1,17 @@
+.buttons-ultime-nov {
+    width: 160px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: transparent;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.buttons-ultime-nov:hover {
+    box-shadow: 0px 0px 0px 2px black;
+    border: 0;
+}
+.buttons-ultime-nov a {
+    text-decoration: none;
+    color: black;
+}

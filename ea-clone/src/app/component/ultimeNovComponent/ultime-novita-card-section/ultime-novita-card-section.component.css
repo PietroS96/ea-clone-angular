@@ -1,0 +1,8 @@
+.card-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 3%;
+    margin-left: 21%;
+    margin-right: 21%;
+}
