@@ -10,6 +10,8 @@ import { FooterSocialContainerComponent } from './component/footerComponent/foot
 import { FooterLanguageContainerComponent } from './component/footerComponent/footer-language-container/footer-language-container.component';
 import { BigContainerComponent } from './component/giochiInEvidenzaComponent/big-container/big-container.component';
 import { WrapContainerComponent } from './component/giochiInEvidenzaComponent/wrap-container/wrap-container.component';
+import { HeaderNavbarComponent } from './component/headerComponent/header-navbar/header-navbar.component';
+import { HeaderBannerComponent } from './component/headerComponent/header-banner/header-banner.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,9 @@ import { WrapContainerComponent } from './component/giochiInEvidenzaComponent/wr
     FooterLanguageContainerComponent,
     BigContainerComponent,
     WrapContainerComponent,
+    HeaderNavbarComponent,
+    HeaderBannerComponent,
+
   ],
   imports: [BrowserModule],
   providers: [],
