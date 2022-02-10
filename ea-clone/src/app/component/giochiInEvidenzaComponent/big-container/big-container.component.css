@@ -1,0 +1,23 @@
+.big-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+  }
+  .games {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 20px 0px 20px 0px;
+  }
+  .container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1203px;
+    max-height: 3046px;
+    justify-content: center;
+  }

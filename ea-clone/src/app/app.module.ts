@@ -8,6 +8,8 @@ import { ButtonSubscribeComponent } from './designSystem/buttonSubscribe/button-
 import { ButtonDiscoverComponent } from './designSystem/buttonSubscribe/button-discover/button-discover.component';
 import { FooterSocialContainerComponent } from './component/footerComponent/footer-social-container/footer-social-container.component';
 import { FooterLanguageContainerComponent } from './component/footerComponent/footer-language-container/footer-language-container.component';
+import { BigContainerComponent } from './component/giochiInEvidenzaComponent/big-container/big-container.component';
+import { WrapContainerComponent } from './component/giochiInEvidenzaComponent/wrap-container/wrap-container.component';
 import { HeaderNavbarComponent } from './component/headerComponent/header-navbar/header-navbar.component';
 import { HeaderBannerComponent } from './component/headerComponent/header-banner/header-banner.component';
 
@@ -20,8 +22,11 @@ import { HeaderBannerComponent } from './component/headerComponent/header-banner
     ButtonDiscoverComponent,
     FooterSocialContainerComponent,
     FooterLanguageContainerComponent,
+    BigContainerComponent,
+    WrapContainerComponent,
     HeaderNavbarComponent,
     HeaderBannerComponent,
+
   ],
   imports: [BrowserModule],
   providers: [],
