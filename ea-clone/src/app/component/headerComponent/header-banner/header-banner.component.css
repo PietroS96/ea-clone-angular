@@ -1,86 +1,84 @@
-article.banner{
-    height: 60vh;
-    background-image: url(../../../../assets/header-assets/bf-2042-section-bg-homepage-hero-keyart-xl.jpg.adapt.1920w.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
+article.banner {
+  height: 60vh;
+  background-image: url(../../../../assets/header-assets/bf-2042-section-bg-homepage-hero-keyart-xl.jpg.adapt.1920w.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
 
-
-article.banner h1{
-    font-size: 50px
+article.banner h1 {
+  font-size: 50px;
 }
 
-article.banner h6{
-    font-size: 18px;
-    margin: 30px 0;
-    font-weight: 400;
-    width: 50%;
+article.banner h6 {
+  font-size: 18px;
+  margin: 30px 0;
+  font-weight: 400;
+  width: 50%;
 }
 
-article.banner .btn-default{
-    width: 160px;
-    height: 60px;
-    border: 2px solid white;
-    border-radius: 2px;
-    background-color: transparent;
-    transition: 0.5ms;
-    cursor: pointer;
-    color: white;
-    font-size: 18px;
+article.banner .btn-default {
+  width: 160px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 2px;
+  background-color: transparent;
+  transition: 0.5ms;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
 }
 
-article.banner .btn-default:hover{
-    box-shadow: 0px 0px 0px 2px white;
-    border: transparent;
+article.banner .btn-default:hover {
+  box-shadow: 0px 0px 0px 2px white;
+  border: transparent;
 }
 
 @media (max-width: 1100px) {
-    article.banner{
-        background-image: url(../../../../assets/header-assets/bf-2042-section-bg-homepage-hero-keyart-xl.jpg.adapt\ 2.png);
-    }
-    div.circle-menu{
-        display: none;
-    }
+  article.banner {
+    background-image: url("../../../../assets/header-assets/bf-2042-adaptive.png");
+  }
+  div.circle-menu {
+    display: none;
+  }
 
-    ul.list-item-menu{
-        display: none;
-    }
+  ul.list-item-menu {
+    display: none;
+  }
 
-    article.banner > .container {
-        width: 100%;
-        margin-left: 5rem;
-    }
-    
-    article.banner > .container > img{
-        width: 400px;
-    }
+  article.banner > .container {
+    width: 100%;
+    margin-left: 5rem;
+  }
 
-    article.banner h6{
-        width: 50%;
-    }
+  article.banner > .container > img {
+    width: 400px;
+  }
 
+  article.banner h6 {
+    width: 50%;
+  }
 }
 
 @media (max-width: 720px) {
-    article.banner{
-        background-image: url(../../../../assets/header-assets/battlefield-2042-key-art.jpg.adapt.crop1x1.767p.jpg);
-    }
+  article.banner {
+    background-image: url(../../../../assets/header-assets/battlefield-2042-key-art.jpg.adapt.crop1x1.767p.jpg);
+  }
 
-    article.banner {
-        text-align: center;
-    }
+  article.banner {
+    text-align: center;
+  }
 
-    article.banner .banner-text{
-        display: none;
-    }
+  article.banner .banner-text {
+    display: none;
+  }
 
-    article.banner > .container {
-        margin-left: 0;
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-        align-items: center;
-    }
+  article.banner > .container {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
 }
