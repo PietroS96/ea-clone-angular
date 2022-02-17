@@ -22,7 +22,10 @@ import { ContainerCardTheSims4Component } from './component/ultimeNovComponent/c
 import { ContainerCardF12021Component } from './component/ultimeNovComponent/container-card-f12021/container-card-f12021.component';
 import { ContainerCardInsideeaComponent } from './component/ultimeNovComponent/container-card-insideea/container-card-insideea.component';
 import { ContainerCardMadddenNFLComponent } from './component/ultimeNovComponent/container-card-maddden-nfl/container-card-maddden-nfl.component';
-
+import { HeaderNavbarComponent } from './component/headerComponent/header-navbar/header-navbar.component';
+import { BigContainerComponent } from './component/giochiInEvidenzaComponent/big-container/big-container.component';
+import { WrapContainerComponent } from './component/giochiInEvidenzaComponent/wrap-container/wrap-container.component';
+import { HeaderBannerComponent } from './component/headerComponent/header-banner/header-banner.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,6 +49,10 @@ import { ContainerCardMadddenNFLComponent } from './component/ultimeNovComponent
     ContainerCardF12021Component,
     ContainerCardInsideeaComponent,
     ContainerCardMadddenNFLComponent,
+    HeaderNavbarComponent,
+    BigContainerComponent,
+    WrapContainerComponent,
+    HeaderBannerComponent
   ],
   imports: [BrowserModule],
   providers: [],
