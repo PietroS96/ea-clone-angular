@@ -2,8 +2,8 @@
     <div id="titolo-ultime-novità">
         <h1>Ultime novità</h1>
     </div>
-    <app-ultime-novita-navbar></app-ultime-novita-navbar>
-    <app-ultime-novita-card-section></app-ultime-novita-card-section>
+    <app-ultime-novita-navbar [listItem]="listItem" (inviaNumeroItem)="numeroRicevuto($event)"></app-ultime-novita-navbar>
+    <app-ultime-novita-card-section [selectedItem]="selectedItem" (inviaNumeroItem)="numeroRicevuto(selectedItem)"></app-ultime-novita-card-section>
     <div class="conteiner-button-piu-dettagli">
         <app-button-dettagli></app-button-dettagli>
     </div>
