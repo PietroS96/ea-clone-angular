@@ -12,11 +12,20 @@ import { UltimeNovitaContainerComponent } from './component/ultimeNovComponent/u
 import { UltimeNovitaCardSectionComponent } from './component/ultimeNovComponent/ultime-novita-card-section/ultime-novita-card-section.component';
 import { UltimeNovitaNavbarComponent } from './component/ultimeNovComponent/ultime-novita-navbar/ultime-novita-navbar.component';
 import { ButtonDettagliComponent } from './designSystem/buttonSubscribe/button-dettagli/button-dettagli.component';
+import { CardUNComponent } from './designSystem/cards/card-un/card-un.component';
+import { ContainerCardNEAComponent } from './component/ultimeNovComponent/container-card-nea/container-card-nea.component';
+import { ContainerCardEAPComponent } from './component/ultimeNovComponent/container-card-eap/container-card-eap.component';
+import { ContainerCardFIFAComponent } from './component/ultimeNovComponent/container-card-fifa/container-card-fifa.component';
+import { ContainerCardApexComponent } from './component/ultimeNovComponent/container-card-apex/container-card-apex.component';
+import { ContainerCardBattlefieldComponent } from './component/ultimeNovComponent/container-card-battlefield/container-card-battlefield.component';
+import { ContainerCardTheSims4Component } from './component/ultimeNovComponent/container-card-the-sims4/container-card-the-sims4.component';
+import { ContainerCardF12021Component } from './component/ultimeNovComponent/container-card-f12021/container-card-f12021.component';
+import { ContainerCardInsideeaComponent } from './component/ultimeNovComponent/container-card-insideea/container-card-insideea.component';
+import { ContainerCardMadddenNFLComponent } from './component/ultimeNovComponent/container-card-maddden-nfl/container-card-maddden-nfl.component';
+import { HeaderNavbarComponent } from './component/headerComponent/header-navbar/header-navbar.component';
 import { BigContainerComponent } from './component/giochiInEvidenzaComponent/big-container/big-container.component';
 import { WrapContainerComponent } from './component/giochiInEvidenzaComponent/wrap-container/wrap-container.component';
-import { HeaderNavbarComponent } from './component/headerComponent/header-navbar/header-navbar.component';
 import { HeaderBannerComponent } from './component/headerComponent/header-banner/header-banner.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,11 +39,20 @@ import { HeaderBannerComponent } from './component/headerComponent/header-banner
     UltimeNovitaCardSectionComponent,
     UltimeNovitaNavbarComponent,
     ButtonDettagliComponent,
+    CardUNComponent,
+    ContainerCardNEAComponent,
+    ContainerCardEAPComponent,
+    ContainerCardFIFAComponent,
+    ContainerCardApexComponent,
+    ContainerCardBattlefieldComponent,
+    ContainerCardTheSims4Component,
+    ContainerCardF12021Component,
+    ContainerCardInsideeaComponent,
+    ContainerCardMadddenNFLComponent,
+    HeaderNavbarComponent,
     BigContainerComponent,
     WrapContainerComponent,
-    HeaderNavbarComponent,
-    HeaderBannerComponent,
-
+    HeaderBannerComponent
   ],
   imports: [BrowserModule],
   providers: [],

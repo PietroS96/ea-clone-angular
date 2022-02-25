@@ -1,9 +1,13 @@
-<div class="card-section">
-    <p>card1</p>
-    <p>card2</p>
-    <p>card3</p>
-    <p>card4</p>
-    <p>card5</p>
-    <p>card6</p>
+<div (click)="numeroTrovato(selectedItem)" >
+    <app-container-card-nea [ngClass]="{'show': selectedItem==0 , 'noshow': selectedItem !== 0}"></app-container-card-nea>
+    <app-container-card-eap [ngClass]="{'show': selectedItem==1 , 'noshow': selectedItem !== 1}"></app-container-card-eap>
+    <app-container-card-maddden-nfl [ngClass]="{'show': selectedItem==2 , 'noshow': selectedItem !== 2}"></app-container-card-maddden-nfl>
+    <app-container-card-apex [ngClass]="{'show': selectedItem==3 , 'noshow': selectedItem !== 3}"></app-container-card-apex>
+    <app-container-card-fifa [ngClass]="{'show': selectedItem==4 , 'noshow': selectedItem !== 4}"></app-container-card-fifa>
+    <app-container-card-battlefield [ngClass]="{'show': selectedItem==5 , 'noshow': selectedItem !== 5}"></app-container-card-battlefield>
+    <app-container-card-the-sims4 [ngClass]="{'show': selectedItem==7 , 'noshow': selectedItem !== 6}"></app-container-card-the-sims4>
+    <app-container-card-f12021 [ngClass]="{'show': selectedItem==7 , 'noshow': selectedItem !== 7}"></app-container-card-f12021>
+    <app-container-card-insideea [ngClass]="{'show': selectedItem==8 , 'noshow': selectedItem !== 8}"></app-container-card-insideea>
 </div>
+
 

@@ -1,0 +1,13 @@
+.container-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 3%;
+    margin-left: 21%;
+    margin-right: 21%;
+    
+}
+
+.sub-container-card{
+    margin-bottom: 22px;
+}
